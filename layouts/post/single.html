@@ -60,7 +60,7 @@
           </a>
           {{ end }}
           {{ if .Params.linkedin }}
-          <a {{ printf "href=https://www.linkedin.com/feed/update/%q" .Params.linkedin.activity | safeHTMLAttr }} target="_blank" class="btn btn-primary btn-sm btn-xs no-under">
+          <a {{ printf "href=https://www.linkedin.com/feed/update/%s" .Params.linkedin.activity | safeHTMLAttr }} target="_blank" class="btn btn-primary btn-sm btn-xs no-under">
             LinkedIn
           </a>
           {{ end }}
